@@ -103,6 +103,7 @@ public class EssentialsExpansion extends PlaceholderExpansion {
     public String onRequest(OfflinePlayer player, @NotNull String identifier) {
         final String papiTrue = PlaceholderAPIPlugin.booleanTrue();
         final String papiFalse = PlaceholderAPIPlugin.booleanFalse();
+        identifier = PlaceholderAPI.setBracketPlaceholders(player, identifier);
 
         // Put this before the null check as most of it is not required
         if (identifier.startsWith("baltop_")) {
