@@ -28,6 +28,7 @@ import com.earth2me.essentials.utils.DescParseTickFormat;
 
 import com.google.common.primitives.Ints;
 import me.clip.placeholderapi.PlaceholderAPIPlugin;
+import me.clip.placeholderapi.PlaceholderAPI;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import net.essentialsx.api.v2.services.BalanceTop;
 import org.bukkit.*;
